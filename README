@@ -1,0 +1,16 @@
+### Criar template para criar repositorios
+
+-- $ jf rt create-repo template-dockerremoteteste.json
+
+#### Criar o repositorio com o arquivo template
+
+--- $ jf rt repo-create template-dockerremoteteste.json
+
+#### Pegando todas as configurações dos repositorios
+
+--- $ jf rt curl  /api/repositories/configurations
+
+
+#### Criar Project com curl via api
+
+--- $ curl  POST "https://testejfrog.jfrog.io/access/api/v1/projects" -H "Authorization: Bearer <tokenaqui>" -H "Accept: application/json; charset=UTF-8" -H "Content-Type: application/json" -d @teste.json

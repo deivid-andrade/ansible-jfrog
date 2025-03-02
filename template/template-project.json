@@ -1,0 +1,11 @@
+ {
+    "display_name": "artifactory-deivid",
+    "description": "The binary repository manager",
+    "admin_privileges": {
+    "manage_members": true,
+    "manage_resources": true,
+    "index_resources": true
+},
+    "storage_quota_bytes": 1073741824,
+    "project_key": "string"
+}
