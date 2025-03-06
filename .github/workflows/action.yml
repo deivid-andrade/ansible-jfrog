@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
    inputs:
       name:
-        required: true
+        required: false
 jobs:
   CreateRepository:
     runs-on: ansible-jfrog 
