@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          echo USERNAME_DOCKER: ${{ secrets.USERNAME_DOCKER }} >> $GITHUB_ENV
-          echo PASSWORD_DOCKER: ${{ secrets.PASSWORD_DOCKER }} >> $GITHUB_ENV
+             echo USERNAME_DOCKER: ${{ secrets.USERNAME_DOCKER }} >> $GITHUB_ENV
+             echo PASSWORD_DOCKER: ${{ secrets.PASSWORD_DOCKER }} >> $GITHUB_ENV
       - run: |
              jf rt repo-create template/template-docker-remote.json
