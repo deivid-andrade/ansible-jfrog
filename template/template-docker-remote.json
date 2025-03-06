@@ -1,8 +1,8 @@
 {
-  "key":"deivid-teste-docker22",
+  "key":"deivid-teste-docker2222",
   "packageType":"docker",
-  "username":"142129",
-  "password":"",
+  "username":"{{ secrets.USERNAME_DOCKER }}",
+  "password":"{{ secrets.PASSWORD_DOCKER }}",
   "rclass":"remote",
   "url":"https://registry-1.docker.io/"
 }
