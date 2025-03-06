@@ -1,0 +1,13 @@
+name: criando repositorio
+on:
+  workflow_dispatch:
+   inputs:
+      name:
+        required: true
+jobs:
+  CreateRepository:
+    runs-on: pop-os 
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+             jf rt repo-create template-dockerremoteteste.json
