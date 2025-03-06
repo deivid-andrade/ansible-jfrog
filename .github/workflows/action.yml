@@ -6,8 +6,8 @@ on:
         required: true
 jobs:
   CreateRepository:
-    runs-on: pop-os 
+    runs-on: ansible-jfrog 
     steps:
       - uses: actions/checkout@v4
       - run: |
-             jf rt repo-create template-dockerremoteteste.json
+             jf rt repo-create template/template-docker-remote.json

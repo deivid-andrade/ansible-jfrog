@@ -1,5 +1,5 @@
 {
-  "key":"deivid-teste-docker2222",
+  "key":"teste-actions",
   "packageType":"docker",
   "username":"{{ secrets.USERNAME_DOCKER }}",
   "password":"{{ secrets.PASSWORD_DOCKER }}",
